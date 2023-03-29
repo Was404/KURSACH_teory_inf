@@ -54,16 +54,13 @@
             app:layout_constraintTop_toBottomOf="@+id/NameEnter" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="16dp" android:layout_marginEnd="16dp"
             app:layout_constraintEnd_toEndOf="parent">
-        <TextView
-                android:id="@+id/printText"
+        <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:text="@string/print_some_"
-                android:textSize="24sp"
-                android:gravity="top"
-        />
+                android:inputType="textPersonName"
+                android:hint="@string/print_some_"
+                android:ems="10"
+                android:id="@+id/editText"/>
     </RelativeLayout>
     <Button
             android:text="@string/btn_cod"

@@ -1,22 +1,31 @@
 package com.dk.kursach;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class CodHem {
     // вместо скан ин было введено 1. ПРоверить код
-    public static void main(String args[]) {
+    AppActivity text = new AppActivity();
+    public void main(String args[]) {
+        String str_text[] = text.getStrCode().split("");
+        int numArr[] = new int[str_text.length];
+        for (int i = 0; i < str_text.length; i++) {
+            numArr[i] = Integer.parseInt(str_text[i]);
+        }
         System.out.println("Enter the number of bits for the Hamming data:");
-        int n = 1;
+        int n = numArr[];
         int a[] = new int[n];
 
         for(int i=0 ; i < n ; i++) {
             System.out.println("Enter bit no. " + (n-i) + ":");
-            a[n-i-1] = 1;
+            a[n-i-1] = numArr[i];
         }
 
         System.out.println("You entered:");
         for(int i=0 ; i < n ; i++) {
             System.out.print(a[n-i-1]);
         }
-        System.out.println();
+
 
         int b[] = generateCode(a);
 
@@ -24,11 +33,10 @@ public class CodHem {
         for(int i=0 ; i < b.length ; i++) {
             System.out.print(b[b.length-i-1]);
         }
-        System.out.println();
 
         // Difference in the sizes of original and new array will give us the number of parity bits added.
         System.out.println("Enter position of a bit to alter to check for error detection at the receiver end (0 for no error):");
-        int error = 1;
+        int error = numArr[i];
         if(error != 0) {
             b[error-1] = (b[error-1]+1)%2;
         }

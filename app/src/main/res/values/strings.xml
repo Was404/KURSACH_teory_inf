@@ -4,7 +4,7 @@
     <string name="PODzagolovok">Алгоритм:</string>
     <string name="Algoritm">Код Хаффмана</string>
     <string name="NameEnter">Введите строку</string>
-    <string name="print_some_">Print some text...\n</string>
+    <string name="print_some_">Print some text...</string>
     <string name="btn_cod">Закодировать</string>
     <string name="context_settings">Settings</string>
     <string name="context_help">Help</string>
