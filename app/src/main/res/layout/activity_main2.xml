@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent" android:orientation="vertical"
-    tools:context=".AppActivity">
+    tools:context=".AppActivity" android:clipToOutline="true" android:background="@drawable/green_screen"
+    >
     <TextView
             android:text="@string/zagolovok"
             android:layout_width="240dp"
