@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">KURSACH_teory_inf</string>
+    <string name="zagolovok">Кодирование строки</string>
+    <string name="algorithm_name">Алгоритм:</string>
+    <string name="algorithm_HEMMING">Код Хэмминга</string>
+    <string name="String_input">Введите строку</string>
+    <string name="btn_enter">Закодировать</string>
+    <string name="printsome">Print some text…</string>
+    <string name="text_settings">Настройки</string>
+    <string name="text_help">Помощь</string>
+    <string name="resolut_congress">Успех!</string>
+    <string name="resolut_fail">Провал</string>
+    <string name="btn_retry">Заново</string>
+    <string name="btn_share">Поделиться</string>
 </resources>
