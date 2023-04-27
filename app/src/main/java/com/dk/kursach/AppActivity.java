@@ -29,8 +29,10 @@ public class AppActivity extends AppCompatActivity {
                     Toast.makeText(AppActivity.this, "Вы ничего не ввели",
                             Toast.LENGTH_SHORT).show();
                 }
+                wordText.setText(ch.encodeHamming(word));
             }
         });
+
     }
     public String getWord() {
         return wordText.getText().toString();

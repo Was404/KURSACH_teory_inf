@@ -46,6 +46,8 @@ public class CodHem {
 
         // Возвращаем закодированную строку
         return encoded.toString();
+
     }
+
 
 }
