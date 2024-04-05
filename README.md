@@ -12,7 +12,7 @@
 
 ## Дизайн🪄
 Карточки приложения [здесь](https://www.figma.com/file/CVr4CacxrrJ06sEp7vFu0u/App-Hemming?type=design&node-id=0%3A1&mode=design&t=XgtPOCS1CZvCzrKH-1).
-![[pic/main-activity-pic.png|170x360]]![[pic/second-activity-pic.png|170x360]]![[pic/third-activity-win.png|170x360]]
+![[main-activity-pic.png|170x360]] ![[second-activity-pic.png|170x360]] ![[third-activity-win.png|170x360]]
 
 ### Анимация
 ## Что по коду🚬
@@ -20,7 +20,7 @@
 > *В новой Android Studio отказались от Java и перешли на **Kotlin**.*
 ### Trouble shooting
 
-<iframe src="https://www.youtube.com/embed/9p85yiZCY6M"></iframe>
+
 
 ---
 #study 
